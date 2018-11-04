@@ -1,3 +1,18 @@
+"""
+Heather Craddock
+
+Problem Specification:
+
+Given a file with input in the form:
+    cost;paymentGiven e.g. 17.59;20.00
+Output the coins/bills in the following format
+    COIN1, COIN2, ..., COINN e.g. TWO, QUARTER, DIME, NICKEL, PENNY
+
+Problem specified using Python 2.7
+If using python 3.6, I would change the list of objects to a dictionary, which is ordered by default in 3.6 but not in 2.7
+
+
+"""
 import sys
 
 def calculateChange(price, payment):
